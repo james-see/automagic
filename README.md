@@ -1,0 +1,2 @@
+# automagic
+code for automagic
