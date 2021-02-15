@@ -1,0 +1,22 @@
+{
+	"apps": {
+		"http": {
+			"servers": {
+				"hello": {
+					"listen": [":443"],
+					"routes": [
+						{
+							"match": [{
+								"host": ["automagic.club"]
+							}],
+							"handle": [{
+								"handler": "static_response",
+								"body": "Hello, privacy!"
+							}]
+						}
+					]
+				}
+			}
+		}
+	}
+}

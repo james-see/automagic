@@ -1,0 +1,8 @@
+www.automagic.club {
+	redir https://automagic.club{uri}
+}
+
+automagic.club {
+root * /var/www/web/
+file_server
+}
