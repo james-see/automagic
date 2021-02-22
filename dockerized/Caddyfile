@@ -1,5 +1,7 @@
-localhost
+http://127.0.0.1:2021
 
-root * /var/www/html/
+root * /srv/
 file_server
-
+tls internal {
+	on_demand
+}
